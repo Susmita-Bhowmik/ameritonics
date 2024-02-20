@@ -1,0 +1,36 @@
+.entry-header{
+    display: none;
+
+}
+.woocommerce-tabs{
+    display: none;
+}
+#comments{
+    display: none;
+}
+.navigation{
+    display: none;
+}
+
+.woocommerce-product-gallery--columns-4.images {
+width: 100% !important;
+max-width: 100%; float: none;
+}
+
+.woocommerce-product-gallery--columns-4.images img {
+width: 100% !important;
+max-width: 100%; float: none; 
+
+}
+.woocommerce-product-gallery__wrapper{
+    border: 1px solid #DCDCDC;
+}
+.woocommerce-product-gallery {
+     width: 100% !important;
+    max-width: 100%; float: none; 
+}
+.wp-post-image{
+    width: 100% !important;
+    max-width: 400px !important;
+    min-width:400px !important;
+}

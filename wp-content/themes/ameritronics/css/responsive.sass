@@ -1,0 +1,714 @@
+=filter($filter_mode)
+    -webkit-filter: $filter_mode
+    -moz-filter: $filter_mode
+    -ms-filter: $filter_mode
+    -o-filter: $filter_mode
+    filter: $filter_mode
+
+=back-drop-filter($blur)
+    -webkit-backdrop-filter: $blur
+    -moz-backdrop-filter: $blur
+    -ms-backdrop-filter: $blur
+    -o-backdrop-filter: $blur
+    backdrop-filter: $blur
+
+=text-stroke-width($tstrokewidth)
+    -webkit-text-stroke-width: $tstrokewidth
+    -moz-text-stroke-width: $tstrokewidth
+    -ms-text-stroke-width: $tstrokewidth
+    -o-text-stroke-width: $tstrokewidth
+
+=text-stroke-color($tstrokecolor)
+    -webkit-text-stroke-color: $tstrokecolor
+    -moz-text-stroke-color: $tstrokecolor
+    -ms-text-stroke-color: $tstrokecolor 
+    -o-text-stroke-color: $tstrokecolor	
+
+=box-sizing($box)
+    -webkit-box-sizing: $box
+    -moz-box-sizing: $box
+    -ms-box-sizing: $box
+    -o-box-sizing: $box
+    webkit-box-sizing: $box
+
+=border-radius($round)
+    -webkit-border-radius: $round
+    -moz-border-radius: $round
+    -ms-border-radius: $round
+    border-radius: $round
+
+=transform($trans)
+    -webkit-transform: $trans
+    -moz-transform: $trans
+    -ms-transform: $trans
+    transform: $trans
+
+=transition($smooth)
+    -webkit-transition: $smooth
+    -moz-transition: $smooth
+    -o-transition: $smooth
+    transition: $smooth
+
+=appearance($appr)
+    -webkit-appearance: $appr
+    -moz-appearance: $appr
+    -o-appearance: $appr
+    appearance: $appr
+
+=box-shadow($bbs)
+    -webkit-box-shadow: $bbs
+    -moz-box-shadow: $bbs
+    -o-box-shadow: $bbs
+    box-shadow: $bbs
+
+=text-shadow($tbbs)
+    -webkit-text-shadow: $tbbs
+    -moz-text-shadow: $tbbs
+    -o-text-shadow: $tbbs
+    text-shadow: $tbbs
+
+
+$white: #ffff
+$white-shade: #9D9D9D
+$black: #070707
+$black-shade: #3E3E3E
+$black-main: #000000
+$red-light: #E9422D
+$red: #CC2B33
+$red-shade: #CB0101
+$red-dark: #960007
+$color-paragraph: #2C2C2C
+$border-color: #DCDCDC
+$bg-extra: #F6F6F6
+$border-dash: #D9D9D9
+$blue: #332B99
+$blue-light: #3097D8
+$blue-dark: #09044E
+$blue-light-shade: #01BAFD
+$icon-twitter: #00acee
+$green-deep: #0EAE54
+$green-light: #00843A
+$green-shde: #CEF81E
+$brown: #310002
+$brown-deep: #562301
+$yellow: #A69054
+$yellow-light: #E1C54C
+$testi-bg: #EDEDED
+$green-main: #08DC7D
+$pink-dark: #9D4949
+$pink: #CD7575
+$pink-shade: #DC8686
+$pink-light: #F9C5C5
+$pink-light-shade: #F8DFDF
+$pink-shade-dark: #F19B9B 
+$perpel: #3F0167
+$perpel-dark: #2E004D
+$grey: #8E8E8E
+$grey-dark: #F2F2F2
+$orange: #E2872C
+
+$font_paragraph: "Josefin Sans"
+$font_heading: "Montserrat"
+
+// 
+@media only screen and ( max-width: 1459px ) and (min-width: 1400px)
+    .banner_main 
+        .banner_text
+            width: 1250px
+@media only screen and ( max-width: 1399px ) and (min-width: 1200px)
+    h2
+        font-size: 50px
+    .banner_main 
+        .banner_text
+            width: 980px
+    .welcome_box_wapper
+        min-height: 570px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .footer_list 
+            a
+                font-size: 13px
+        .quick_link_list
+            ul
+                gap: 20px
+        .bottom_links 
+            a
+                font-size: 12px
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+// 
+@media only screen and ( max-width: 1199px ) and (min-width: 1024px)
+    h2
+        font-size: 45px
+    .container
+        max-width: 95%
+    .banner_main 
+        .banner_text
+            width: 820px
+        h1
+            font-size: 45px
+    .welcome_box_wapper
+        min-height: 570px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .footer_list 
+            a
+                font-size: 13px
+        .quick_link_list
+            ul
+                gap: 20px
+        .bottom_links 
+            a
+                font-size: 12px
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+    .footer_main 
+        .bottom_links 
+            .top_wapper
+                flex-direction: column
+                gap: 15px
+                .quick_link_list 
+                    ul
+                        gap: 15px
+        .footer_list
+            h3
+                font-size: 20px
+        .copyright 
+            p
+                font-size: 12px 
+        .logo_and_social 
+            .logo
+                width: 350px
+// 
+@media only screen and ( max-width: 1023px ) and (min-width: 992px)
+    h2
+        font-size: 40px
+    .container
+        max-width: 95%
+    .banner_main 
+        .banner_text
+            width: 770px
+        h1
+            font-size: 45px
+    .welcome_box_wapper
+        min-height: 570px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .footer_list 
+            a
+                font-size: 13px
+        .quick_link_list
+            ul
+                gap: 20px
+        .bottom_links 
+            a
+                font-size: 12px
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+    .welcome_box_wapper 
+        h3
+            font-size: 23px
+    .footer_main 
+        .bottom_links 
+            .top_wapper
+                flex-direction: column
+                gap: 15px
+                .quick_link_list 
+                    ul
+                        gap: 14px
+        .footer_list
+            h3
+                font-size: 20px
+        .copyright 
+            p
+                font-size: 12px 
+        .logo_and_social 
+            .logo
+                width: 350px
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .welcome-about 
+        h2
+            font-size: 38px
+    .product_dtl_main_sec 
+        .price_main
+            font-size: 36px
+    .main_nav 
+        .nav_list_row 
+            ul
+                gap: 25px
+// 
+@media only screen and ( max-width: 991px ) and (min-width: 768px)
+    h2
+        font-size: 32px
+    .container
+        max-width: 95%
+    .banner_main 
+        .banner_text
+            width: 770px
+        h1
+            font-size: 45px
+            width: 74%
+            margin: auto
+            text-align: center
+    .welcome_box_wapper
+        min-height: 630px
+        padding: 20px
+        h3
+            font-size: 21px
+            width: 100%
+        .col-md-6
+            width: 100%
+        .img_box 
+            figure
+                height: 180px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .footer_list 
+            a
+                font-size: 13px
+            h3
+                font-size: 20px
+        .quick_link_list
+            ul
+                gap: 20px
+                justify-content: center
+                flex-wrap: wrap
+        .bottom_links 
+            a
+                font-size: 12px
+        .bottom_links 
+            .top_wapper
+                flex-direction: column
+                gap: 15px
+                .quick_link_list 
+                    ul
+                        gap: 14px
+        .copyright 
+            p
+                font-size: 12px 
+        .logo_and_social 
+            .logo
+                width: 280px
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .welcome-about 
+        h2
+            font-size: 38px
+    .shop_now_box 
+        h3
+            a
+                font-size: 20px
+    .top_search_form input:not(.product_search, input[type=radio], input[type=checkbox])
+        padding-right: 50px
+    .main_nav 
+        .nav_list_row 
+            ul
+                gap: 25px
+        .login_register 
+            ul
+                width: 149px
+        .last_col_wapper
+            gap: 20px
+// 
+@media only screen and ( max-width: 767px ) and (min-width: 586px)
+    h2
+        font-size: 32px
+    .container
+        max-width: 95%
+    .main_header 
+        .contact_info 
+            ul
+                gap: 10px
+                font-size: 14px
+                li
+                    &:nth-child(2)
+                        display: none
+    .main_nav
+        .logo
+            width: 145px
+        .last_col_wapper
+            gap: 10px
+        .nav_list_row 
+            ul
+                gap: 20px
+            a
+                font-size: 14px
+    .banner_main 
+        .banner_text
+            width: auto
+        h1
+            font-size: 45px
+            width: 74%
+            margin: auto
+            text-align: center
+    .welcome_box_wapper
+        min-height: 630px
+        padding: 20px
+        h3
+            font-size: 21px
+            width: 100%
+        .col-md-6
+            width: 100%
+        .img_box 
+            figure
+                height: 180px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .footer_list 
+            a
+                font-size: 13px
+            h3
+                font-size: 20px
+        .quick_link_list
+            ul
+                gap: 20px
+                justify-content: center
+                flex-wrap: wrap
+        .bottom_links 
+            a
+                font-size: 12px
+        .bottom_links 
+            .top_wapper
+                flex-direction: column
+                gap: 15px
+                .quick_link_list 
+                    ul
+                        gap: 14px
+        .copyright 
+            p
+                font-size: 12px 
+        .logo_and_social 
+            .logo
+                width: 280px
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .welcome-about 
+        h2
+            font-size: 38px
+    .shop_now_box 
+        h3
+            a
+                font-size: 20px
+    .top_search_form input:not(.product_search, input[type=radio], input[type=checkbox])
+        padding-right: 50px
+    .listing_catagori_side
+        height: auto
+        margin-bottom: 30px
+    .main_productlist__item_wapper 
+        .main_product_text_list
+            margin-top: 30px
+    .ready_form_main 
+        .checkbox_wapper 
+            label
+                font-size: 18px
+    .main_nav 
+        .login_register 
+            ul
+                width: 120px
+            a
+                font-size: 11px
+// 
+@media only screen and ( max-width: 585px)
+    h2
+        font-size: 26px
+    .container
+        max-width: 95%
+    .main_header 
+        .top
+            justify-content: center
+        .contact_info 
+            ul
+                gap: 10px
+                font-size: 14px
+                flex-direction: column
+                li
+                    &:nth-child(2)
+                        display: none
+        .social_media
+            display: none
+    .main_nav
+        .top 
+            .row
+                justify-content: center
+                gap: 15px
+            .col-sm-3 , .col-sm-5
+                width: 100%
+        .logo
+            width: auto
+            text-align: center
+            img
+                display: inline-block
+        .last_col_wapper
+            gap: 10px
+            justify-content: start
+        .nav_list_row 
+            ul
+                gap: 20px
+            a
+                font-size: 14px
+    .banner_main 
+        .banner_text
+            width: auto
+            top: 70%
+        h1
+            font-size: 25px
+            width: 74%
+            margin: auto
+            text-align: center
+            color: $red
+    .welcome_box_wapper
+        min-height: 630px
+        padding: 20px
+        h3
+            font-size: 21px
+            width: 100%
+        .col-md-6
+            width: 100%
+        .img_box 
+            figure
+                height: 180px
+    .shop_now_main_sec 
+        .slick-prev
+            left: 42px
+        .slick-next
+            right: 63px
+    .footer_main 
+        .logo_and_social
+            flex-direction: column
+            gap: 15px
+        .logo_and_social 
+            .social_media
+                padding-left: 0
+        .footer_list 
+            a
+                font-size: 13px
+            h3
+                font-size: 20px
+        .quick_link_list
+            ul
+                gap: 20px
+                justify-content: center
+                flex-wrap: wrap
+        .bottom_links 
+            a
+                font-size: 12px
+        .bottom_links 
+            .top_wapper
+                flex-direction: column
+                gap: 15px
+                .quick_link_list 
+                    ul
+                        gap: 14px
+        .copyright 
+            flex-direction: column
+            p
+                font-size: 12px 
+        .logo_and_social 
+            .logo
+                width: auto
+                padding-right: 0
+    .abc_slider_box 
+        figure
+            height: 287px
+    .price_dtl_wapper_main 
+        .price_main
+            font-size: 40px
+            margin-right: 0
+    .select_model_main 
+        select
+            padding-right: 41px
+    .welcome-about 
+        ul 
+            li
+                flex: 0 0 100%
+    .welcome-about 
+        h2
+            font-size: 38px
+    .shop_now_box 
+        h3
+            a
+                font-size: 20px
+    .top_search_form input:not(.product_search, input[type=radio], input[type=checkbox])
+        padding-right: 50px
+    .listing_catagori_side
+        height: auto
+        margin-bottom: 30px
+    .main_productlist__item_wapper 
+        .main_product_text_list
+            margin-top: 30px
+    .ready_form_main 
+        .checkbox_wapper 
+            label
+                font-size: 18px
+    .listing_catagori_side 
+        .drop_down_item 
+            h6 
+                a
+                    width: 90%
+                    display: inline-block
+    .main_productlist__item_wapper 
+        .each_wapper
+            padding: 15px
+        .heading 
+            h3
+                font-size: 18px
+                line-height: normal
+        .main_product_text_list 
+            .a_btn
+                float: none
+            h4
+                font-size: 20px
+    .pagination_main 
+        .fz-pagination
+            gap: 10px
+    .subscribe_main_index
+        .col-md-6
+            width: 100%
+    .subscribe_form 
+        .form_group
+            flex-direction: column
+            gap: 15px
+        .subscribe_btn
+            border-radius: 30px
+            width: 100%
+        input:not(.subscribe_btn, input[type=radio], input[type=checkbox])
+            border-radius: 30px
+    .banner_main_slider 
+        .slick-prev
+            left: 12px
+        .slick-next
+            right: 12px
+    .shop_now_main_sec 
+        .slick-next
+            right: 0
+        .slick-prev
+            left: 0
+    .shop_now_box 
+        .extra_dtl 
+            ul
+                flex-direction: column
+                gap: 12px
+    .ready_form_main 
+        .checkbox_wapper 
+            p
+                padding-left: 0
+    .welcome_slider 
+        .elements
+            padding-right: 0
+    .shopnow_slider_main 
+        .elements
+            padding-right: 0
+// For Mobile Menu
+@media only screen and ( max-width: 585px)
+    .main_header
+        .pull_mob_nav
+            display: block
+            position: absolute
+            width: 55px
+            height: 32px
+            z-index: 2
+            border: 1px solid $blue
+            text-align: center
+            text-transform: uppercase
+            line-height: 35px
+            color: $blue
+            letter-spacing: 2px
+            bottom: 56px
+            right: 20px
+            border-radius: 6px
+            font-size: 11px
+            font-weight: 600
+            cursor: pointer
+    .main_nav 
+        position: relative
+        .nav_list_row 
+            ul
+                position: fixed
+                flex-direction: column
+                background-color: $blue
+                top: 0
+                height: 100%
+                left: 0
+                padding-top: 0
+                z-index: 5
+                width: 200px
+                align-items: flex-start
+                padding-left: 22px 
+                justify-content: start
+                padding-top: 30px
+            a
+                color: $white
+        .nav_list_row 
+            .nav_list
+                display: none

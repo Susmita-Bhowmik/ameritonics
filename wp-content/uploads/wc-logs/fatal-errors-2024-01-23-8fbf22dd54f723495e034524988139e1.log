@@ -1,0 +1,189 @@
+2024-01-23T13:48:06+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php:133
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#8 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#11 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php on line 133
+
+2024-01-23T13:49:48+00:00 CRITICAL Uncaught Error: Call to a member function get_short_description() on bool in C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php:115
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require()
+#1 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#8 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#11 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php on line 115
+
+2024-01-23T13:53:25+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php:2204
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(2204): array_map('absint', 33)
+#1 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#3 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php(113): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#11 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#19 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php on line 2204
+
+2024-01-23T13:53:56+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php:2204
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(2204): array_map('absint', 33)
+#1 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#3 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php(113): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#11 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#19 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php on line 2204
+
+2024-01-23T13:58:33+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php:2204
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(2204): array_map('absint', 33)
+#1 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#3 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php(113): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#11 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#19 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php on line 2204
+
+2024-01-23T14:00:31+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php:2204
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(2204): array_map('absint', 33)
+#1 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#3 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php(114): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#11 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#19 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php on line 2204
+
+2024-01-23T14:01:00+00:00 CRITICAL Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php:2204
+Stack trace:
+#0 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(2204): array_map('absint', 33)
+#1 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#2 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php(3956): WP_Query->query(Array)
+#3 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\templates\content-single-product.php(114): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(433): WC_Shortcodes::product_page(Array, '', 'product_page')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\ameritronics\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#10 C:\xampp\htdocs\ameritronics\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(634): do_shortcode('[product_page i...')
+#11 C:\xampp\htdocs\ameritronics\wp-includes\class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter('<ul>\n<li>ZT-700...')
+#12 C:\xampp\htdocs\ameritronics\wp-includes\plugin.php(205): WP_Hook->apply_filters('<ul>\n<li>ZT-700...', Array)
+#13 C:\xampp\htdocs\ameritronics\wp-includes\post-template.php(256): apply_filters('the_content', '<ul>\r\n \t<li>ZT-...')
+#14 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\template-parts\content\content-single.php(23): the_content()
+#15 C:\xampp\htdocs\ameritronics\wp-includes\template.php(792): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\ameritronics\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\ameritronics\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\ameritronics\wp-content\themes\ameritronics\single.php(18): get_template_part('template-parts/...')
+#19 C:\xampp\htdocs\ameritronics\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\ameritronics\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\ameritronics\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\ameritronics\wp-includes\class-wp-query.php on line 2204
+
+2024-01-23T14:48:49+00:00 CRITICAL syntax error, unexpected 'CheckoutFields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home2/creatyz1/public_html/development/ameritronics/wp-content/plugins/woocommerce/src/StoreApi/Utilities/OrderController.php on line 20
+
+2024-01-23T14:49:17+00:00 CRITICAL syntax error, unexpected 'CheckoutFields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home2/creatyz1/public_html/development/ameritronics/wp-content/plugins/woocommerce/src/StoreApi/Utilities/OrderController.php on line 20
+
+2024-01-23T15:21:28+00:00 CRITICAL syntax error, unexpected 'CheckoutFields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home2/creatyz1/public_html/development/ameritronics/wp-content/plugins/woocommerce/src/StoreApi/Utilities/OrderController.php on line 20
+
+2024-01-23T16:38:39+00:00 CRITICAL syntax error, unexpected 'CheckoutFields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home2/creatyz1/public_html/development/ameritronics/wp-content/plugins/woocommerce/src/StoreApi/Utilities/OrderController.php on line 20
+
